@@ -1,0 +1,7 @@
+:root{--bg:#fbfaf7;--fg:#222;--mut:#666;--ac:#8a6d3b}
+@media(prefers-color-scheme:dark){:root{--bg:#161616;--fg:#e6e6e6;--mut:#999;--ac:#c9a86a}}
+body{background:var(--bg);color:var(--fg);font:300 17px/1.65 -apple-system,"Helvetica Neue",Arial,sans-serif;margin:0}
+main{max-width:42rem;margin:0 auto;padding:2.5rem 16px 4rem}
+h1,h2{font-weight:600;line-height:1.25}h1{font-size:1.8rem}h2{font-size:1.2rem;margin-top:2rem}
+a{color:var(--ac)}nav{margin-bottom:2rem}nav a{margin-right:1rem}
+.muted{color:var(--mut);font-size:.9rem}
